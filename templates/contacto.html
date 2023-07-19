@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./static/images/salta.svg" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./static/css/index.css">
+    <script src="./static/js/contacto.js"></script>
+    <title>Contacto</title>
+</head>
+<body>
+    <nav class="nav-index">
+        <div class="monedas">
+            <p>Dolar Oficial: <span id="moneda1"></span></p>
+            <p>Dola Blue: <span id="moneda2"></span></p>
+        </div>
+    </nav>
+    <header>
+        
+        <div class="linkes">
+            <img class='logo-image' src="./static/images/salta.svg" alt="icono de la provincia de salta">
+            <a href="/">Home</a>
+            <a href="acercade">Acerca de Salta</a>
+            <a href="citytour">City Tour</a>
+            <a href="paquetes">Paquetes</a>
+            <a href="contacto">Contacto</a>
+            <a href="crear">Crear</a>
+            <a href="mostrar">Mostrar</a>
+        </div>
+    </header>
+
+    <main class="main-contacto">
+        <h1>Contactenos...</h1>
+        <div class="contacto-form">
+            <img id='imagenes-varias' src="./static/images/santa-rosa-tastil.jpg" onclick='cambiarImagen()' alt="Imagenes de la provincia de Salta">
+            <div class="formulario1">
+                <h2>Envianos un Email:</h2>
+                <form action="">
+                    <div class="row">
+                        <label for="">Nombre</label>
+                        <input type="text">
+                    </div>
+                    <div class="row">
+                        <label for="">Apellido</label>
+                        <input type="text">
+                    </div>
+                    <div class="row">
+                        <label for="">Telefono</label>
+                        <input type="text">
+                    </div>
+                    <div class="row">
+                        <label for="">Email</label>
+                        <input type="text">
+                    </div>
+                    <div class="row2">
+                        <label for="">Comentario</label>
+                        <textarea name="" id="" cols="30" rows="6"></textarea>
+                    </div>
+                    <button>Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.0498160821257!2d-65.41117852588165!3d-24.793747659319596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc3a2253a7cf7%3A0x469db8cb0bdce160!2sAv.%20San%20Mart%C3%ADn%20250%2C%20Salta!5e0!3m2!1ses!2sar!4v1684367956749!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        <div class="renglon1">
+            <p  style="color:white;">Conoce nuestra provincia, donde la historia y la tradición se unen para crear una experiencia única en el norte argentino.</p>
+        </div>
+        <div class="renglon2">
+            <div class="enlaces">
+                <a href="index.html">Home</a>
+                <a href="acercade.html">Acerca de Salta</a>
+                <a href="citytour.html">City Tour</a>
+                <a href="paquetes.html">Paquetes</a>
+                <a href="contacto.html">Contacto</a>
+            </div>
+            <div class="contacto">
+                <div class="contacto1">
+                    <img src="./static/images/icons8-email-50.png">
+                    <p>San Martin N 250, <br>Salta - Capital</p>
+                </div>
+                <div class="contacto1">
+                    <img src="./static/images/icons8-home-address-50.png">
+                    <p>correo@electronico.com</p>
+                </div>
+            </div>
+            <div class="iconos_redes">
+                <a href=""><img src="./static/images/icono_facebook.png" alt=""></a>
+                <a href=""><img src="./static/images/icono_twitter.png" alt=""></a>
+                <a href=""><img src="./static/images/icono_youtube.png" alt=""></a>
+                <a href=""><img src="./static/images/icono_instagram.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
